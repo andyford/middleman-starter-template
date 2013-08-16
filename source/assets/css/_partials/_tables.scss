@@ -1,0 +1,47 @@
+caption {
+  text-align: left;
+  font-weight: normal;
+}
+
+thead {
+
+  td,
+  th {
+    font-weight: bold;
+  }
+}
+
+tfoot {
+  // font-style: italic;
+
+  td {
+
+  }
+}
+
+tr {
+
+  &:nth-child(even) td {
+    //background: #eee;
+  }
+}
+
+td,
+th {
+  padding: .5em;
+  border: 1px solid #ccc;
+  font-size: 1em;
+  line-height: 1.2;
+  text-align: left;
+}
+
+th {
+  font-weight: bold;
+}
+
+td {
+
+  img {
+    vertical-align: top;
+  }
+}

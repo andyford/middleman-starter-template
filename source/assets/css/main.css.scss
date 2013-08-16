@@ -1,0 +1,22 @@
+// @import url('diagnostic.css');
+
+@import '_partials/base';
+@import '_partials/mixins';
+@import '_partials/functions';
+
+@import '_partials/normalize-1x'; // *-2x if legacy IE support not needed
+@import '_partials/type';
+@import '_partials/forms';
+@import '_partials/messages';
+@import '_partials/tables';
+@import '_partials/grid';
+
+@import '_partials/site';
+@import '_partials/nav';
+
+// import custom modules
+
+@import '_partials/helpers';
+
+@import '_partials/media-queries';
+// @import '_partials/print';

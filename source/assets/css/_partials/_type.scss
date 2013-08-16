@@ -1,0 +1,82 @@
+a {
+  // text-decoration: none;
+}
+
+p {
+  // margin: 0 0 1.25em;
+}
+
+
+// HEADINGS
+// ////////////////////////////////////////////
+//traditional scale: 72 60 48 36 24 21 18 16 14 12 11 10 9 8 7 6
+
+h1 {
+  font-size: 36px
+}
+
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 21px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+h6 {
+  font-size: 14px;
+}
+
+// end HEADINGS
+// ///////////////////////
+
+
+// LISTS (UL, OL, DL)
+// ////////////////////////////////////////////
+
+ul {
+  margin: 0 1.5em 1em 1.5em;
+  list-style: disc;
+
+  ul {
+    list-style: circle;
+
+    ul {
+      list-style: square;
+    }
+  }
+}
+
+ol {
+  margin-left: 2.5em;
+  list-style: decimal;
+
+  ol,
+  &.alpha {
+    list-style: lower-alpha;
+  }
+
+  ol ol {
+    list-style: lower-roman;
+  }
+}
+
+dl {}
+
+dt {
+  font-weight: bold;
+}
+
+dd {}
+
+// end LISTS (UL, OL, DL)
+// ///////////////////////

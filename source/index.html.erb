@@ -1,0 +1,14 @@
+---
+title: Templates Index
+layout: sitemap
+---
+
+<h1><%= data.vars.site_name %></h1>
+<h2><%= data.page.title %></h2>
+<ul>
+  <% sitemap.resources.each do |page| %>
+    <% if page.data.title && page.data.title != 'Templates Index' %>
+      <li><%= link_to page.data.title, page.url %></li>
+    <% end %>
+  <% end %>
+</ul>

@@ -1,0 +1,23 @@
+
+@mixin list-reset() {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@mixin bg-gradient-v($start, $stop, $fallback: mix($start, $stop)) {
+  background: $fallback;
+  @include background-image(linear-gradient($start, $stop));
+}
+
+
+// @mixin bg-image-over-gradient-v($img, $start, $stop, $fallback: $start) {
+//   background: $fallback;
+//   background-image: url($img);
+//   background-image: url($img), -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, $start), color-stop(100%, $stop));
+//   background-image: url($img), -webkit-linear-gradient($start, $stop);
+//   background-image: url($img), -moz-linear-gradient($start, $stop);
+//   background-image: url($img), -o-linear-gradient($start, $stop);
+//   background-image: url($img), -ms-linear-gradient($start, $stop);
+//   background-image: url($img), linear-gradient($start, $stop);
+// }

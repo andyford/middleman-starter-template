@@ -1,0 +1,54 @@
+// @import url('diagnostic.css');
+
+// compass sprite example:
+// @import 'directory-name/*.png';
+// @include directory-name-sprite(file-name);
+
+
+body, button, input, select, textarea {
+  color: #444;
+  // font-family: sans-serif;
+  // @include font-stack-helvetica();
+}
+
+body {
+  // min-width: 1024px;
+  // font-size: 16px;
+  // line-height: 1.25;
+  // background: #fff;
+}
+
+
+// LAYOUT
+// ////////////////////////////////////////////
+
+.page-main {
+
+}
+
+.page-body {
+
+}
+
+.content-primary {
+
+}
+
+.content-secondary {
+
+}
+
+.page-header {
+  position: relative;
+}
+
+.page-logo {
+
+}
+
+.page-footer {
+  clear: both;
+}
+
+// end LAYOUT
+// ///////////////////////

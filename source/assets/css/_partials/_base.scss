@@ -1,0 +1,42 @@
+// _base.scss
+
+
+// @@ COMPASS
+// =============================================
+@import "compass/css3";
+@import "compass/css3/images";
+@import "compass/utilities/general/clearfix";
+@import "compass/typography/text/replacement";
+// @import "blueprint";
+// @import "blueprint/grid";
+
+$experimental-support-for-khtml: false;
+$legacy-support-for-ie6: false;
+
+
+// @@ VARIABLES
+// =============================================
+
+// @@ blueprint
+//
+
+// @@ colors
+//
+
+// @@ dimensions
+//$w_col: 64px;
+//$w_gutter: 16px;
+//$w_column: $w_col + $w_gutter;
+
+
+// @@ FONTS
+// =============================================
+$font-arial: Arial, Helvetica, 'Helvetica Neue', sans-serif;
+$font-georgia: Georgia, Cambria, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
+$font-helvetica: Helvetica, 'Helvetica Neue', Arial, sans-serif;
+$font-lucida-grande: 'Lucida Grande', 'Lucida Sans', 'Lucida Sans Unicode', Tahoma, Verdana, sans-serif;
+$monospace: "Bitstream Vera Sans Mono", Consolas, Courier, monospace;
+$font-myriad: 'MyriadSet-Medium', 'Myriad Set Medium', 'MyriadPro-Medium', 'Myriad Pro Medium', 'MyriadSet', 'Myriad Set', 'MyriadPro', 'Myriad Pro', 'Lucida Grande', 'Lucida Sans', 'Lucida Sans Unicode', sans-serif;
+$font-verdana: Verdana, Geneva, Tahoma, sans-serif;
+
+// @import "font-face";

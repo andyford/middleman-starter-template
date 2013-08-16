@@ -1,0 +1,23 @@
+
+$gr: 1.61803399; // golden ratio
+$col-gutter: ($gr * 2); // (%)
+
+.col-group {
+  position: relative;
+  @include pie-clearfix;
+
+  > .col {
+    float: left;
+    margin-left: ($col-gutter * 1%);
+
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+}
+
+@for $cols from 2 through 12 {
+  .cols-#{$cols} > .col {
+    width: (((100 / $cols) - (($col-gutter * ($cols - 1)) / $cols)) * 1%);
+  }
+}

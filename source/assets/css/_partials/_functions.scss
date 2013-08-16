@@ -1,0 +1,12 @@
+
+// Add percentage of white to a color
+// from: https://github.com/thoughtbot/bourbon
+@function tint($color, $percent) {
+  @return mix(white, $color, $percent);
+}
+
+// Add percentage of black to a color
+// from: https://github.com/thoughtbot/bourbon
+@function shade($color, $percent) {
+  @return mix(black, $color, $percent);
+}
